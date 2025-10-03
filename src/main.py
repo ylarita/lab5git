@@ -10,9 +10,9 @@ def main():
 
     result = calculator.calculate_total_cost(weight, floor, has_elevator)
 
-    print(f"\nБазовая плата: {result['base_cost']}元")
-    print(f"Стоимость ручной обработки: {result['manual_cost']}元")
-    print(f"Расходы: {result['total_cost']}元")
+    print(f"\nБазовая плата: {result['base_cost']}Руб")
+    print(f"Стоимость ручной обработки: {result['manual_cost']}Руб")
+    print(f"Расходы: {result['total_cost']}Руб")
 
 if __name__ == "__main__":
     main()
